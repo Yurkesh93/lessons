@@ -1,0 +1,53 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/*Header styles*/
+
+.title {
+	color: blue;
+}
+
+.sub__title {
+	color: yellow;
+}
+
+.list__description {
+	color: green;
+}
+/* ----------------------- */
+/* Main styles */
+/* -------------------------- */
+/* history */
+
+.history {}
+
+.history__title {
+	color: red;
+}
+
+.history__text {
+	color: rgb(147, 69, 69);
+}
+
+/*atmosphere*/
+
+
+.atmosphere__title {
+	color: green;
+}
+
+.atmosphere__text {
+	color: goldenrod;
+}
+
+.atmosphere__text>p {
+	color: black;
+}
+/*                                        */
+
+/* footer */
+
+.footer__text {
+	color: red;
+}
+
