@@ -1,0 +1,87 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Creepster:regular&display=swap");
+
+@font-face {
+	font-family: "Happiness";
+	src: url("../fonts/HappinessRegular.woff2") format("woff2"), url("../fonts/HappinessRegular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Relettered";
+	src: url("../fonts/Relettered-Regular.woff2") format("woff2"), url("../fonts/Relettered-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ----------------------------------------------------------------- */
+
+[class*="__title"] {
+	font-family: "Roboto", " Arial", "Helvetica", sans-serif;
+	color: #333;
+	font-size: 21px;
+	font-weight: 700;
+	text-align: center;
+}
+
+/*Header styles*/
+.header__text {
+	font-family: "Creepster", serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: darkgoldenrod;
+}
+
+/* ----------------------- */
+/* Main styles */
+/* -------------------------- */
+/* eating*/
+.eating__text {
+	font-family: "Happiness", sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: rgba(11, 25, 188, 0.523);
+}
+/* ------------------------------------------ */
+/*food-groups*/
+
+.food-groups__text {
+	font-family: "Relettered", sans-serif;
+	font-size: 36px;
+	line-height: 1.4;
+	color: rgba(223, 78, 16, 0.523);
+	text-align: center;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+/*                                        */
+
+/* footer */
+
+.how__text {
+	font-family: "Creepster", serif;
+	font-size: 24px;
+	line-height: 1.4;
+	color: rgba(223, 78, 16, 0.523);
+	text-align: left;
+	text-decoration: underline;
+	text-shadow: 0.5px 0.5px 0.5px #000, -2px -2px 2px rgb(251, 184, 15);
+	word-spacing: 10px;
+	text-indent: 20px;
+}
+.sections__list {
+	font-family: "Roboto", " Arial", "Helvetica", sans-serif;
+	color: #333;
+	font-size: 21px;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: overline;
+	text-transform: uppercase;
+}
