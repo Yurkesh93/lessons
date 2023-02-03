@@ -1,0 +1,83 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+/* ----------------------------------------------------------------- */
+
+[class*="-title"] {
+	font-family: "Poppins", sans-serif;
+	color: #212529;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-left: 312px;
+	margin-bottom: 40px;
+}
+
+/*Header styles*/
+.header-title {
+	max-width: 400px;
+}
+
+/* ----------------------- */
+/* Main styles */
+/* -------------------------- */
+
+.content-text,
+.succes-text,
+.footer-text {
+	font-family: "Poppins", sans-serif;
+	color: #6c757d;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 1.785714;
+	max-width: 816px;
+	margin-left: 312px;
+	margin-bottom: 80px;
+}
+.first,
+.second,
+.fourth {
+	padding-bottom: 25px;
+}
+
+/* ------------------------------------------ */
+
+.content-image {
+	max-width: 1240px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+}
+.content-image img {
+	width: 100%;
+}
+/*                                        */
+.succes-title {
+	max-width: 605px;
+}
+.succes-image {
+	max-width: 1240px;
+	margin-left: 100px;
+	margin-bottom: 80px;
+	overflow: clip;
+}
+.succes-image img {
+	max-width: 605px;
+	max-height: 400px;
+	padding-right: 28px;
+	vertical-align: middle;
+}
+
+/* footer */
+.list {
+	font-size: 0;
+	width: 400px;
+	margin: 0 auto;
+}
+.list__item {
+	font-size: 16px;
+	display: inline-block;
+	background-color: rgba(7, 146, 233, 0.361);
+	padding: 15px;
+}
