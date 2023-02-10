@@ -1,0 +1,192 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 300;
+}
+/* ----------------------------------------------------------------- */
+/* Обмежуючий контейнер */
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* ----------------------------- */
+/* title */
+[class*="__title"] {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+
+/*Header styles*/
+/* ----------------------- */
+/* Main styles */
+/* -------------------------- */
+.happy {
+}
+.happy__container {
+}
+/* Додаткове обмеження ширини */
+.happy__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+.happy__text-block p {
+	line-height: 1.78;
+	margin-bottom: 30px;
+}
+.happy__title {
+	max-width: 400px;
+}
+.happy__title-succes {
+	max-width: 605px;
+}
+.happy__title-succes-02 {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	max-width: 605px;
+}
+.happy__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+	border-radius: 5px;
+}
+.happy__image-02 {
+	max-width: 100%;
+	margin-bottom: 100px;
+}
+.succes-images {
+	max-width: 100%;
+	font-size: 0;
+	margin-bottom: 80px;
+	border-radius: 5px;
+}
+
+.succes-images img {
+	font-size: 14px;
+}
+.woman {
+	margin-right: 30px;
+}
+.nature {
+}
+.succes-images-02 {
+	max-width: 100%;
+	font-size: 0;
+	margin-bottom: 100px;
+	border-radius: 5px;
+}
+.succes-images-02 img {
+	font-size: 14px;
+}
+.t-shirts {
+	margin-right: 30px;
+}
+/* ------------------------------------------------------------------ */
+/* Practice */
+.practice {
+	margin: 0 auto 80px;
+	max-width: 816px;
+}
+[class*="__footer"] {
+	margin-bottom: 80px;
+}
+/* -------------------------------------------------------------------------- */
+.block__footer {
+	max-width: 816px;
+	margin: 0 0 0 auto;
+	border: 5px solid red;
+}
+.transparent__footer {
+	border: 10px solid transparent;
+}
+.border-top__footer {
+	border-top: 5px solid #000;
+}
+.border-right__footer {
+	border-right: 2px dashed red;
+}
+.border-bottom__footer {
+	border-bottom: 3px solid #000;
+}
+.border-left__footer {
+	border-left: 10px dashed green;
+}
+.inline__footer {
+	border: 1px solid red;
+}
+.inline-block__footer {
+	border: 5px solid green;
+}
+.outline__footer {
+	outline: 5px solid red;
+}
+.inline-outline__footer {
+	outline: 5px solid yellow;
+}
+.inline-block-outline__footer {
+	outline: 5px solid yellow;
+}
+.block-border-radius__footer {
+	border-radius: 40px;
+	overflow: hidden;
+}
+.inline-border-radius__footer {
+	border-radius: 50px;
+	overflow: hidden;
+}
+.inline-block-border-radius__footer {
+	border-radius: 50%;
+}
+.circle__footer {
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+}
+.block-box-shadow__footer {
+	box-shadow: 0px 0px 20px 0px yellow;
+}
+.block-box-shadow-inset__footer {
+	box-shadow: inset 5px 0px 20px 10px #000;
+}
+.inline-box-shadow__footer {
+	box-shadow: 10px 0px 5px 0px green;
+}
+.inline-block-box-shadow__footer {
+	box-shadow: 0px 0px 50px 0px yellow;
+}
+.block-opacity__footer {
+	/* opacity: 0.2; */
+	opacity: 0;
+}
+.block-visibility__footer {
+	visibility: hidden;
+}
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: green;
+	color: #fff;
+	border-radius: 15px;
+	border: 5px solid yellow;
+	box-shadow: 0 10px 0 0 #000;
+	margin-bottom: 20px;
+	position: relative;
+	top: 0;
+	transition: all 0.3s;
+}
+.button:hover {
+	top: 3px;
+	box-shadow: 0 2px 0 0 #000;
+}
