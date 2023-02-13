@@ -1,0 +1,69 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6c757d;
+	font-size: 14px;
+	font-weight: 300;
+}
+/* ----------------------------------------------------------------- */
+/* Обмежуючий контейнер */
+[class*="__container"] {
+	max-width: 635px;
+	margin: 0px 100px 115px;
+	padding-top: 330px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* [class*="__container-02"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+} */
+/* ----------------------------- */
+/* title */
+[class*="__title"] {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+}
+
+/*Header styles*/
+/* ----------------------- */
+/* Main styles */
+/* -------------------------- */
+.simple {
+	background-image: url("../img/01.png");
+	background-size: cover;
+	background-position: center;
+}
+.simple-title {
+	color: #f8f9fa;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.simple__date {
+	display: inline-block;
+	color: #e5e5e5;
+	font-size: 12px;
+	line-height: 1.67;
+	/* padding-top: 330px; */
+	margin-bottom: 15px;
+}
+.simple__text {
+	display: inline-block;
+	color: #e5e5e5;
+	font-size: 12px;
+	line-height: 1.67;
+	max-width: 351px;
+	margin-bottom: 100px;
+}
