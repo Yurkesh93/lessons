@@ -137,7 +137,10 @@ li {
 .item-2 li:not(:last-child) {
 	margin-bottom: 10px;
 }
-
+.item-2 li:hover {
+	color: green;
+	text-decoration: underline;
+}
 /* --------------------------------------------------------*/
 
 .shop {
