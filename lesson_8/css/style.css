@@ -109,7 +109,6 @@ li {
 .item-1 li:hover {
 	color: green;
 	text-decoration: underline;
-	cursor: pointer;
 }
 .item-1 li:active {
 	color: blue;
