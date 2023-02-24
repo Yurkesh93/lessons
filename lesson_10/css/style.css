@@ -1,0 +1,165 @@
+/* --RESET STYLES--- */
+@import url("reset.css");
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+
+body {
+	background-color: rgba(218, 165, 32, 0.425);
+	font-family: "Poppins", sans-serif;
+	color: #212529;
+	font-size: 16px;
+	font-weight: 500;
+}
+main {
+	margin-bottom: 30px;
+}
+/* ----------------------------------------------------------------- */
+/* Обмежуючий контейнер */
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ----------------------------- */
+/* title */
+
+/* --------------------------------------------------------------------------- */
+/* text */
+[class*="__text"] {
+	max-width: 470px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------- */
+/*Header styles*/
+.page-header {
+}
+
+.logo {
+	color: #495057;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 1.4;
+}
+.page-header__logo {
+}
+.nav {
+	display: inline-block;
+	color: rgba(73, 80, 87, 0.5);
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 2.08;
+}
+.nav li:hover {
+	color: #495057;
+	transition: all 0.3s ease 0s;
+}
+.page-header__nav {
+}
+.page-header__nav li:hover {
+	border-bottom: 2px solid #171717;
+}
+
+.page-header__social {
+}
+.page-header__search {
+}
+/* ----------------------- */
+
+/* Main styles */
+.design {
+}
+
+.title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+}
+.design__title {
+	max-width: 393px;
+}
+.nav {
+}
+.design__nav {
+}
+.items {
+}
+.design__items {
+}
+.item {
+}
+.item__image {
+}
+.item__date {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 1.67;
+	color: #495057;
+}
+.item__text {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5px;
+	color: #212529;
+}
+/* -------------------------- */
+.trending {
+}
+
+.trending__title {
+	margin-bottom: 45px;
+}
+.items {
+}
+.trending__items {
+}
+.item {
+}
+.item__image {
+}
+.item__date {
+}
+.item__date_color {
+	color: #e5e5e5;
+}
+.item__text {
+}
+.item__text_white {
+	color: #f8f9fa;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+/* footer */
+.page-footer {
+	background-color: #212529;
+}
+.page-footer__container {
+}
+
+.page-footer__logo {
+	color: #f8f9fa;
+}
+
+.page-footer__nav {
+	color: rgba(248, 249, 250, 0.5);
+}
+.page-footer__nav li:hover {
+	color: #f8f9fa;
+	transition: all 0.3s ease 0s;
+}
+.page-footer__social {
+	color: rgba(248, 249, 250, 0.5);
+}
+.page-footer__social li:hover {
+	color: #f8f9fa;
+	transition: all 0.3s ease 0s;
+}
+.page-footer__adress {
+	color: rgba(248, 249, 250, 0.5);
+}
+.page-footer__copy-rights {
+	color: rgba(248, 249, 250, 0.5);
+}
